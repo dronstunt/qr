@@ -15,8 +15,8 @@ export class MapaPage {
   constructor( public navParams: NavParams,
                private viewCtrl: ViewController ) {
 
-     //this.lat = 24.022657;
-     //this.lng = -104.553776;
+     this.lat = 24.022657;
+     this.lng = -104.553776;
 
     let coordsArray = this.navParams.get("coords").split(",");
 
